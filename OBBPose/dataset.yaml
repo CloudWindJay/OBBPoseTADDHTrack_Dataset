@@ -1,0 +1,23 @@
+# YOLOv11 OBB+Pose Dataset Configuration
+
+# Dataset paths (relative to YOLO's working directory)
+path: /OBBPose
+train: images/train
+val: images/val
+test: images/test  # Optional
+
+# Classes
+nc: 1  # number of classes
+names: ['fish']  # class names
+
+# Keypoints configuration for pose estimation
+kpt_shape: [6, 3]  # 6 keypoints, 3 values each (x, y, visibility)
+kpt_names: ['mouth', 'head', 'body1', 'body2', 'fin', 'tail']
+
+# Flip indices for augmentation (horizontal flip)
+flip_idx: [5, 4, 3, 2, 1, 0]  # tail, fin, body2, body1, head, mouth
+
+# Dataset statistics
+# Train: 70% of data
+# Val: 20% of data
+# Test: 10% of data
