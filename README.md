@@ -1,4 +1,4 @@
-# OBBPoseTADDHTrack (Project Name)
+# OBBPoseTADDHTrack
 
 This repository contains the associated code, configuration files, and dataset reference information for our research on deep learning methods for object tracking in complex environments.
 
